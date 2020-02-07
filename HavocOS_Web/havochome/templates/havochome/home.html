@@ -1,0 +1,177 @@
+{% extends "havochome/base.html" %}
+{% load static %}
+
+{% block deco %}
+              <!--Mask-->
+              <div id="intro" class="view">
+                    <div class="mask rgba-blue-strong">
+                        <div class="container">
+                        <!-- Heading -->
+                          <h2 class="display-4 font-weight-bold white-text pt-5 mb-2"><strong>Welcome to Havoc OS</strong></h2>
+                  
+                          <!-- Divider -->
+                          <hr class="hr-light">
+                      
+                          <!-- Description -->
+                          <h4 class="white-text my-4">Havoc-OS is a custom ROM based on AOSP, inspired by Google Pixel. With a refined Material Design 2 UI and lots of exciting features.</h4>
+                          <button type="button" class="btn purple-gradient">Explore    <i class="fas fa-angle-double-down"></i></button>
+                          </div>
+                    </div>
+                  
+                  </div>
+                  <!--/.Mask-->
+{% endblock deco %}
+
+{% block content %}
+
+<!-- {%  for post in posts %}
+
+ {%  endfor %} -->
+ <!--Main container-->
+<div class="container">
+
+    <!--Grid row-->
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-7 mb-5">
+            <div class="view overlay z-depth-1-half">
+                <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg" class="card-img-top" alt="">
+                <div class="mask rgba-white-light"></div>
+              </div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-5 mb-5">
+            <h2><strong>Features</strong></h2>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis pariatur quod ipsum atque quam dolorem
+                voluptate officia sunt placeat consectetur alias fugit cum praesentium ratione sint mollitia, perferendis
+                natus quaerat!</p>
+            <a href="https://mdbootstrap.com/" class="btn blue-gradient">Download now!</a>
+
+        </div>
+        <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+
+        <!--Grid row-->
+        <div class="row">
+                    
+                <!--Grid column-->
+                <div class="col-md-5 mb-5">
+                        <h2><strong>Features</strong></h2>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis pariatur quod ipsum atque quam dolorem
+                            voluptate officia sunt placeat consectetur alias fugit cum praesentium ratione sint mollitia, perferendis
+                            natus quaerat!</p>
+                        <a href="https://mdbootstrap.com/" class="btn purple-gradient">Download now!</a>
+            
+                    </div>
+                    <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-7 mb-5">
+                    <div class="view overlay z-depth-1-half">
+                        <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg" class="card-img-top" alt="">
+                        <div class="mask rgba-white-light"></div>
+                      </div>
+                </div>
+                <!--Grid column-->
+        
+            </div>
+            <!--Grid row-->
+
+  <!--Grid row-->
+  <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-7 mb-5">
+            <div class="view overlay z-depth-1-half">
+                <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg" class="card-img-top" alt="">
+                <div class="mask rgba-white-light"></div>
+              </div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-5 mb-5">
+            <h2><strong>Features</strong></h2>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis pariatur quod ipsum atque quam dolorem
+                voluptate officia sunt placeat consectetur alias fugit cum praesentium ratione sint mollitia, perferendis
+                natus quaerat!</p>
+            <a href="https://mdbootstrap.com/" class="btn blue-gradient">Download now!</a>
+
+        </div>
+        <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+
+    <!--Grid row-->
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-12 mb-4">
+            <h3><strong>Screenshots</strong></h3>
+        </div>
+        <!--Grid column-->
+    </div>
+    <!--Grid row-->
+
+    <div class="row">
+        <div class="col-md-12 mb-4">
+                 <!--Carousel Wrapper-->
+        <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+                <!--Indicators-->
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+                  <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+                </ol>
+                <!--/.Indicators-->
+                <!--Slides-->
+                <div class="carousel-inner" role="listbox">
+                  <!--First slide-->
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg"
+                      alt="First slide">
+                  </div>
+                  <!--/First slide-->
+                  <!--Second slide-->
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(129).jpg"
+                      alt="Second slide">
+                  </div>
+                  <!--/Second slide-->
+                  <!--Third slide-->
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"
+                      alt="Third slide">
+                  </div>
+                  <!--/Third slide-->
+                </div>
+                <!--/.Slides-->
+                <!--Controls-->
+                <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+                <!--/.Controls-->
+              </div>
+              <!--/.Carousel Wrapper-->
+        </div>
+    </div>
+
+</div>
+<!--Main container-->
+ 
+{% endblock content %}
+        

@@ -1,0 +1,217 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Havoc-OS</title>
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="{% static 'havochome/css/bootstrap.min.css' %}">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="{% static 'havochome/css/mdb.min.css' %}">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="{% static 'havochome/css/style.css' %}">
+
+  <!-- Font Awesome -->
+  <link href="{% static '/havochome/css/fontawesome.css' %}" rel="stylesheet">
+  <link href="{% static '/havochome/css/brands.css' %}" rel="stylesheet">
+  <link href="{% static '/havochome/css/solid.css' %}" rel="stylesheet">
+
+  <!-- add icon link -->
+  <link rel = "icon" href =  
+  "static 'havochome/assets/havoc_logo.png'" 
+          type = "image/png"> 
+</head>
+<body>
+
+  <!-- Start your project here-->  
+ <!--  <div style="height: 100vh">
+    <div class="flex-center flex-column">
+      <h1 class="text-hide animated fadeIn mb-4" style="background-image: url('https://mdbootstrap.com/img/logo/mdb-transparent-250px.png'); width: 250px; height: 90px;">MDBootstrap</h1>
+      <h5 class="animated fadeIn mb-3">Thank you for using our product. We're glad you're with us.</h5>
+      <p class="animated fadeIn text-muted">MDB Team</p>
+    </div>
+  </div> -->
+
+  <!-- Navigation Bar -->
+  <header>
+        <nav class="navbar navbar-expand-lg navbar-dark unique-color-dark">
+
+          <div class="container">
+                <!-- Navbar brand -->
+                <a class="navbar-brand" href="/"><img src="{% static '/havochome/assets/havoc_logo.png' %}" height="60px" width="60px"></a>
+              
+                <!-- Collapse button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <!-- Collapsible content -->
+                <div class="collapse navbar-collapse" id="basicExampleNav">
+              
+                    <!-- Links -->
+                    <ul class="navbar-nav mr-auto">
+                      <!--   <li class="nav-item active">
+                            <a class="nav-link" href="#">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="about/">About Us</a>
+                        </li>
+                      <!--   <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+               -->
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Downloads</a>
+                            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Android Q</a>
+                                <a class="dropdown-item" href="#">Pie</a>
+                            </div>
+                        </li>
+              
+                    </ul>
+                    <!-- Links -->
+              
+                    <form class="form-inline">
+                        <div class="md-form my-0">
+                            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                        </div>
+                    </form>
+                </div>
+                <!-- Collapsible content -->
+             </div>
+              </nav>
+
+              {% block deco %}
+
+              {% endblock deco %}
+        </header> 
+<!-- Main Navigation Bar-->
+
+<main class="mt-5">
+  {% block content %}
+  <!-- Main Layout -->
+
+                
+
+  <!-- Main Layout -->
+{% endblock content %}
+</main>  
+  <!-- End your project here-->
+
+  <!-- Footer -->
+<!-- Footer -->
+<footer class="page-footer font-small unique-color-dark pt-4 mt-4">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase">Footer Content</h5>
+        <p>Here you can use rows and columns here to organize your footer content.</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+          <!-- Links -->
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Link 1</a>
+            </li>
+            <li>
+              <a href="#!">Link 2</a>
+            </li>
+            <li>
+              <a href="#!">Link 3</a>
+            </li>
+            <li>
+              <a href="#!">Link 4</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+
+          <!-- Links -->
+           <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled">
+            <li class="mb-3">
+              <a href="https://github.com/Havoc-OS"><i class="fab fa-github fa-2x"></i></a>
+            </li>
+            <li class="mb-3">
+              <a href="https://t.me/havocofficial"><i class="fab fa-telegram fa-2x"></i></a>
+            </li>
+            <li class="mb-3">
+              <a href="https://www.patreon.com/HavocOS"><i class="fab fa-patreon fa-2x"></i></a>
+            </li>
+          </ul> 
+
+        </div>
+        <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/education/bootstrap/">Havoc-OS</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="{% static 'havochome/js/jquery.min.js' %}"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="{% static 'havochome/js/popper.min.js' %}"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="{% static 'havochome/js/bootstrap.min.js' %}"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="{% static 'havochome/js/mdb.min.js' %}"></script>
+  <!-- Font Awesome JavaScript -->
+  <script type="text/javascript" src="{% static 'havochome/js/brands.js' %}"></script>
+  <script type="text/javascript" src="{% static 'havochome/js/solid.js' %}"></script>
+  <script type="text/javascript" src="{% static 'havochome/js/fontawesome.js' %}"></script>
+  
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript"></script>
+
+          
+<!-- Carousel options -->
+<script>
+    $('.carousel').carousel({
+      interval: 2000,
+    })
+</script>
+           
+
+</body>
+</html>
