@@ -11,4 +11,4 @@ def about(request):
 
 
 def downloads(request):
-    return render(request, 'havochome/downloads.html'{'title': 'Downloads'})
+    return render(request, 'havochome/downloads.html', {'title': 'Downloads'})
