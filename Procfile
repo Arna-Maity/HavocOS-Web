@@ -1,0 +1,1 @@
+web: gunicorn HavocOS_Web.wsgi
