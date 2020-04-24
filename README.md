@@ -11,9 +11,9 @@ The Havoc OS Website.
 - export *variable-name*='*variable-value*'
 
 ## Setting up Environment Variable in Windows ##
-![](HavocOS-Web/docs/images/Env_Var_Setup.png)
+![](HavocOS_Web/docs/images/Env_Var_Setup.png)
 
 
- ![](HavocOS-Web/docs/images/Env_Var_Setup_2.png)
+ ![](HavocOS_Web/docs/images/Env_Var_Setup_2.png)
 
  For more info regarding setting up Environment Variables in Windows, go through [this link](https://www.youtube.com/watch?v=IolxqkL7cD8).
