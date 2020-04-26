@@ -433,6 +433,30 @@
     "Xdalink":"https://forum.xda-developers.com/pixel-2-xl",
     "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/taimen.json"
   }  
+},
+
+{
+  "model": "havochome.device",
+  "pk":"36",
+  "fields": {
+    "Codename":"raphael",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/raphael/",
+    "Xdalink":"https://forum.xda-developers.com/redmi-k20-pro",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/raphael.json"
+  }  
+},
+
+{
+  "model": "havochome.device",
+  "pk":"37",
+  "fields": {
+    "Codename":"potter",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/potter/",
+    "Xdalink":"https://forum.xda-developers.com/moto-g5-plus",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/potter.json"
+  }  
 }
 
 ]
