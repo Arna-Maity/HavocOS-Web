@@ -24,13 +24,15 @@
   <link href="{% static '/havochome/css/brands.css' %}" rel="stylesheet">
   <link href="{% static '/havochome/css/solid.css' %}" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap" rel="stylesheet"> 
 
   <!-- add icon link -->
   <link rel = "icon" href =  "static 'havochome/assets/havoc_logo.ico'" type = "image/x-icon">
 
   <style>
       .flob{
-        font-family: 'Lobster', cursive;
+        /*font-family: 'Lobster', cursive;*/
+        font-family: 'Nunito Sans', sans-serif;
       }
   </style>
    
@@ -73,7 +75,7 @@
                             </a>
                         </li> -->
                         <li class="nav-item">
-                            <a class="nav-link flob" style="font-size: large" href="about/">About Us</a>
+                            <a class="nav-link flob" style="font-size: large" href="{% url 'havoc_about' %}">About Us</a>
                         </li>
                       <!--   <li class="nav-item">
                             <a class="nav-link" href="#">Pricing</a>
@@ -133,8 +135,8 @@
       <div class="col-md-6 mt-md-0 mt-3">
 
         <!-- Content -->
-        <h5 class="text-uppercase"><strong>Havoc OS</strong></h5>
-        <p>The Havoc OS website is built on top of the django framework, and uses Bootstrap and is deployed on </p>
+        <h5 class="text-uppercase flob"><strong>Havoc OS</strong></h5>
+        <p>The Havoc OS website is built on top of the django framework, and uses Bootstrap for styling. </p>
 
       </div>
       <!-- Grid column -->
@@ -145,20 +147,11 @@
       <div class="col-md-3 mb-md-0 mb-3">
 
           <!-- Links -->
-          <h5 class="text-uppercase">Links</h5>
+          <h5 class="text-uppercase flob">Links</h5>
 
           <ul class="list-unstyled">
             <li>
-              <a href="#!">Link 1</a>
-            </li>
-            <li>
-              <a href="#!">Link 2</a>
-            </li>
-            <li>
-              <a href="#!">Link 3</a>
-            </li>
-            <li>
-              <a href="#!">Link 4</a>
+              <a href="https://t.me/Havoc_OS" class="flob"><i class="fab fa-telegram fa-2x"></i> Havoc OS Announcements</a>
             </li>
           </ul>
 
@@ -169,17 +162,17 @@
         <div class="col-md-3 mb-md-0 mb-3">
 
           <!-- Links -->
-           <h5 class="text-uppercase">Links</h5>
+           <h5 class="text-uppercase flob">Links</h5>
 
           <ul class="list-unstyled">
             <li class="mb-3">
-              <a href="https://github.com/Havoc-OS"><i class="fab fa-github fa-2x"></i></a>
+              <a href="https://github.com/Havoc-OS" class="flob"><i class="fab fa-github fa-2x"></i>   GitHub </a>
             </li>
             <li class="mb-3">
-              <a href="https://t.me/havocofficial"><i class="fab fa-telegram fa-2x"></i></a>
+              <a href="https://t.me/havocofficial" class="flob"><i class="fab fa-telegram fa-2x"></i>   Official Discussion Group </a>
             </li>
             <li class="mb-3">
-              <a href="https://www.patreon.com/HavocOS"><i class="fab fa-patreon fa-2x"></i></a>
+              <a href="https://www.patreon.com/HavocOS" class="flob"><i class="fab fa-patreon fa-2x"></i>   Donate Via Patreon </a>
             </li>
           </ul> 
 
@@ -193,8 +186,8 @@
   <!-- Footer Links -->
 
   <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">2020:
-    <a href="https://github.com/Havoc-OS">Havoc-OS</a>
+  <div class="footer-copyright text-center py-3 flob">2020:
+    <a href="https://github.com/Havoc-OS" class="flob">Havoc-OS</a>
   </div>
   <!-- Copyright -->
 
