@@ -15,8 +15,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from havochome import views as home_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('havochome.urls')),
+    #path('', home_views.home, name='havoc_home'),
+    #path('about/', home_views.about, name='havoc_about'),
+    #path('downloads/', home_views.downloads, name='havoc_downloads'),
+    #path('downloads/<slug:a_ver>', home_views.downloads, name='havoc_downloads_ver')
 ]
