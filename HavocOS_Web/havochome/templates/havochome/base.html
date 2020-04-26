@@ -23,9 +23,16 @@
   <link href="{% static '/havochome/css/fontawesome.css' %}" rel="stylesheet">
   <link href="{% static '/havochome/css/brands.css' %}" rel="stylesheet">
   <link href="{% static '/havochome/css/solid.css' %}" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 
   <!-- add icon link -->
   <link rel = "icon" href =  "static 'havochome/assets/havoc_logo.ico'" type = "image/x-icon">
+
+  <style>
+      .flob{
+        font-family: 'Lobster', cursive;
+      }
+  </style>
    
 </head>
 <body>
@@ -40,7 +47,9 @@
   </div> -->
 
   <!-- Navigation Bar -->
-  <header>
+  {% block headerspec %}
+  <header style="height: 100%">
+    {% endblock %}
         <nav class="navbar navbar-expand-lg navbar-dark unique-color-dark">
 
           <div class="container">
@@ -64,7 +73,7 @@
                             </a>
                         </li> -->
                         <li class="nav-item">
-                            <a class="nav-link" href="about/">About Us</a>
+                            <a class="nav-link flob" style="font-size: large" href="about/">About Us</a>
                         </li>
                       <!--   <li class="nav-item">
                             <a class="nav-link" href="#">Pricing</a>
@@ -72,10 +81,10 @@
                -->
                         <!-- Dropdown -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Downloads</a>
+                            <a class="nav-link dropdown-toggle flob" style="font-size: large" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Downloads</a>
                             <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Android Q</a>
-                                <a class="dropdown-item" href="#">Pie</a>
+                                <a class="dropdown-item flob" style="font-size: medium" href="{% url 'havoc_downloads' %}a10">Android Q</a>
+                                <a class="dropdown-item flob" style="font-size: medium" href="{% url 'havoc_downloads' %}a9">Pie</a>
                             </div>
                         </li>
               
@@ -99,14 +108,15 @@
 <!-- Main Navigation Bar-->
 
 <main class="mt-5">
-  {% block content %}
+    {% block content %}
   <!-- Main Layout -->
 
                 
 
   <!-- Main Layout -->
-{% endblock content %}
-</main>  
+  {% endblock content %}  
+</main>
+
   <!-- End your project here-->
 
   <!-- Footer -->
@@ -183,8 +193,8 @@
   <!-- Footer Links -->
 
   <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="https://mdbootstrap.com/education/bootstrap/">Havoc-OS</a>
+  <div class="footer-copyright text-center py-3">2020:
+    <a href="https://github.com/Havoc-OS">Havoc-OS</a>
   </div>
   <!-- Copyright -->
 

@@ -1,0 +1,426 @@
+[
+{
+  "model": "havochome.developer",
+  "pk": 1,
+  "fields": {
+    "Name": "Anushek",
+    "Role": "Founder",
+    "Desc": "",
+    "Imlink": "{{ static 'havochome/assets/profile.jpeg' }}",
+    "Xdalink": "",
+    "Gitlink": "",
+    "Paylink": "",
+    "Tellink": ""
+  }
+},
+
+{
+  "model": "havochome.device",
+  "pk":"1",
+  "fields": {
+    "Codename":"oneplus3",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/oneplus3/",
+    "Xdalink":"https://forum.xda-developers.com/oneplus-3",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/oneplus3.json"
+  }
+},
+
+{ 
+  "model": "havochome.device",
+  "pk":"2",
+  "fields": {
+    "Codename":"I01WD",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/I01WD/",
+    "Xdalink":"https://forum.xda-developers.com/zenfone-6-2019",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/I01WD.json"
+  }
+},
+
+{
+  "model": "havochome.device",
+  "pk":"3",
+  "fields": {
+    "Codename":"X00T",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/X00T/",
+    "Xdalink":"https://forum.xda-developers.com/asus-zenfone-max-pro-m1",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/X00T.json"
+  }
+},
+
+{
+  "model": "havochome.device",
+  "pk":"4",
+  "fields": {
+    "Codename":"X01BD",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/X01BD/",
+    "Xdalink":"https://forum.xda-developers.com/max-pro-m2",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/X01BD.json"
+  }
+},
+
+{
+  "model": "havochome.device",
+  "pk":"5",
+  "fields": {
+    "Codename":"angler",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/angler/",
+    "Xdalink":"https://forum.xda-developers.com/nexus-6p",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/angler.json"
+  }
+},
+
+{
+  "model": "havochome.device",
+  "pk":"6",
+  "fields": {
+    "Codename":"athene",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/athene/",
+    "Xdalink":"https://forum.xda-developers.com/moto-g4-plus",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/athene.json"
+  }
+},
+
+{
+  "model": "havochome.device",
+  "pk":"7",
+  "fields": {
+    "Codename":"bacon",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/bacon/",
+    "Xdalink":"https://forum.xda-developers.com/oneplus-one",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/bacon.json"
+  }
+},
+
+{
+  "model": "havochome.device",
+  "pk":"8",
+  "fields": {
+    "Codename":"beryllium",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/beryllium/",
+    "Xdalink":"https://forum.xda-developers.com/poco-f1",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/beryllium.json"
+  }  
+},
+
+{
+  "model": "havochome.device",
+  "pk":"9",
+  "fields": {
+    "Codename":"bullhead",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/bullhead/",
+    "Xdalink":"https://forum.xda-developers.com/nexus-5x",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/bullhead.json"
+  }
+},
+
+{
+  "model": "havochome.device",
+  "pk":"10",
+  "fields": {
+    "Codename":"cheeseburger",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/cheeseburger/",
+    "Xdalink":"https://forum.xda-developers.com/oneplus-5",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/cheeseburger.json"
+  }
+},
+
+{
+  "model": "havochome.device",
+  "pk":"11",
+  "fields": {
+    "Codename":"chiron",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/chiron/",
+    "Xdalink":"https://forum.xda-developers.com/mi-mix-2",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/chiron.json"
+  }
+},
+
+{
+  "model": "havochome.device",
+  "pk":"12",
+  "fields": {
+    "Codename":"dipper",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/dipper/",
+    "Xdalink":"https://forum.xda-developers.com/mi-8",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/dipper.json"
+  }
+},
+
+{
+  "model": "havochome.device",
+  "pk":"13",
+  "fields": {
+    "Codename":"dumpling",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/dumpling/",
+    "Xdalink":"https://forum.xda-developers.com/oneplus-5t",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/dumpling.json"
+  }
+},
+
+
+{
+  "model": "havochome.device",
+  "pk":"14",
+  "fields": {
+    "Codename":"enchilada",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/enchilada/",
+    "Xdalink":"https://forum.xda-developers.com/oneplus-6",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/enchilada.json"
+  }
+},
+
+{
+  "model": "havochome.device",
+  "pk":"15",
+  "fields": {
+    "Codename":"fajita",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/fajita/",
+    "Xdalink":"https://forum.xda-developers.com/oneplus-6t",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/fajita.json"
+  }
+},
+
+{
+  "model": "havochome.device",
+  "pk":"16",
+  "fields": {
+    "Codename":"falcon",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/falcon/",
+    "Xdalink":"https://forum.xda-developers.com/moto-g",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/falcon.json"
+  }
+},
+
+{
+  "model": "havochome.device",
+  "pk":"17",
+  "fields": {
+    "Codename":"gemini",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/gemini/",
+    "Xdalink":"https://forum.xda-developers.com/mi-5",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/gemini.json"
+  }
+},
+
+{
+  "model": "havochome.device",
+  "pk":"18",
+  "fields": {
+    "Codename":"guacamole",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/guacamole/",
+    "Xdalink":"https://forum.xda-developers.com/oneplus-7-pro",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/guacamole.json"
+  }
+},
+
+{
+  "model": "havochome.device",
+  "pk":"19",
+  "fields": {
+    "Codename":"kenzo",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/kenzo/",
+    "Xdalink":"https://forum.xda-developers.com/redmi-note-3",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/kenzo.json"
+  } 
+},
+
+{
+  "model": "havochome.device",
+  "pk":"20",
+  "fields": {
+    "Codename":"kuntao",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/kuntao/",
+    "Xdalink":"https://forum.xda-developers.com/lenovo-p2",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/kuntao.json"
+  } 
+},
+
+{
+  "model": "havochome.device",
+  "pk":"21",
+  "fields": {
+    "Codename":"marlin",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/marlin/",
+    "Xdalink":"https://forum.xda-developers.com/pixel-xl",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/marlin.json"
+  } 
+},
+
+{
+  "model": "havochome.device",
+  "pk":"22",
+  "fields": {
+    "Codename":"mido",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/mido/",
+    "Xdalink":"https://forum.xda-developers.com/redmi-note-4",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/mido.json"
+  } 
+},
+
+{
+  "model": "havochome.device",
+  "pk":"23",
+  "fields": {
+    "Codename":"osprey",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/osprey/",
+    "Xdalink":"https://forum.xda-developers.com/2015-moto-g",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/osprey.json"
+  }  
+},
+
+{
+  "model": "havochome.device",
+  "pk":"24",
+  "fields": {
+    "Codename":"payton",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/payton/",
+    "Xdalink":"https://forum.xda-developers.com/moto-x4",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/payton.json"
+  }  
+},
+
+{
+  "model": "havochome.device",
+  "pk":"25",
+  "fields": {
+    "Codename":"santoni",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/santoni/",
+    "Xdalink":"https://forum.xda-developers.com/xiaomi-redmi-4x",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/santoni.json"
+  }
+},
+
+{
+  "model": "havochome.device",
+  "pk":"26",
+  "fields": {
+    "Codename":"tissot",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/tissot/",
+    "Xdalink":"https://forum.xda-developers.com/mi-a1",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/tissot.json"
+  }  
+},
+
+{
+  "model": "havochome.device",
+  "pk":"27",
+  "fields": {
+    "Codename":"whyred",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/whyred/",
+    "Xdalink":"https://forum.xda-developers.com/redmi-note-5-pro",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/whyred.json"
+  }  
+},
+
+{
+  "model": "havochome.device",
+  "pk":"28",
+  "fields": {
+    "Codename":"guacamoleb",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/guacamoleb/",
+    "Xdalink":"https://forum.xda-developers.com/oneplus-7",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/guacamoleb.json"
+  }  
+},
+
+{
+  "model": "havochome.device",
+  "pk":"29",
+  "fields": {
+    "Codename":"davinci",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/davinci/",
+    "Xdalink":"https://forum.xda-developers.com/redmi-k20",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/davinci.json"
+  }  
+},
+
+{
+  "model": "havochome.device",
+  "pk":"30",
+  "fields": {
+    "Codename":"cepheus",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/cepheus/",
+    "Xdalink":"https://forum.xda-developers.com/redmi-k20-pro",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/cepheus.json"
+  }  
+},
+
+{
+  "model": "havochome.device",
+  "pk":"31",
+  "fields": {
+    "Codename":"ginkgo",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/ginkgo/",
+    "Xdalink":"https://forum.xda-developers.com/redmi-note-8",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/ginkgo.json"
+  }  
+},
+
+{
+  "model": "havochome.device",
+  "pk":"32",
+  "fields": {
+    "Codename":"blueline",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/blueline/",
+    "Xdalink":"https://forum.xda-developers.com/pixel-3",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/blueline.json"
+  }  
+},
+
+{
+  "model": "havochome.device",
+  "pk":"33",
+  "fields": {
+    "Codename":"crosshatch",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/crosshatch/",
+    "Xdalink":"https://forum.xda-developers.com/pixel-3-xl",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/crosshatch.json"
+  }  
+},
+
+{
+  "model": "havochome.device",
+  "pk":"34",
+  "fields": {
+    "Codename":"grus",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/grus/",
+    "Xdalink":"https://forum.xda-developers.com/mi-9-se",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/grus.json"
+  }  
+}
+
+]
