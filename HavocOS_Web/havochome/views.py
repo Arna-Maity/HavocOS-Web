@@ -22,6 +22,7 @@ def downloads(request):
     for i in range(len(Device.objects.all())): 
         tmp = {}
         dev = json.loads(requests.get(Device.objects.get(id=(i+1)).link).content,encoding='utf-8-sig')
+        tmp['vendor'] = dev['vendor']
         tmp['name'] = dev['name']
         tmp['img'] = dev['image']
         tmp['links'] = Device.objects.get(id=(i+1))
