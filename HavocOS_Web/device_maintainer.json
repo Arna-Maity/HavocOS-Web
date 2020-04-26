@@ -421,6 +421,18 @@
     "Xdalink":"https://forum.xda-developers.com/mi-9-se",
     "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/grus.json"
   }  
+},
+
+{
+  "model": "havochome.device",
+  "pk":"35",
+  "fields": {
+    "Codename":"taimen",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/taimen/",
+    "Xdalink":"https://forum.xda-developers.com/pixel-2-xl",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/taimen.json"
+  }  
 }
 
 ]
