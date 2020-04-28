@@ -4,15 +4,91 @@
   "pk": 1,
   "fields": {
     "Name": "Anushek",
-    "Role": "Founder",
+    "Role": "Founder & Lead Developer @Havoc-OS",
     "Desc": "",
-    "Imlink": "{{ static 'havochome/assets/profile.jpeg' }}",
+    "Imlink": "https://avatars0.githubusercontent.com/u/20775406?v=4",
     "Xdalink": "",
-    "Gitlink": "",
+    "Gitlink": "https://github.com/SKULSHADY",
     "Paylink": "",
-    "Tellink": ""
+    "Tellink": "https://t.me/SKULSHADY"
   }
 },
+
+{
+  "model": "havochome.developer",
+  "pk": 2,
+  "fields": {
+    "Name": "Viktor Hermann",
+    "Role": "Founder & Lead Developer @Havoc-OS",
+    "Desc": "",
+    "Imlink": "https://avatars1.githubusercontent.com/u/6627163?v=4",
+    "Xdalink": "",
+    "Gitlink": "https://github.com/ZeNiXxX",
+    "Paylink": "",
+    "Tellink": "https://t.me/ZeNiXxXx"
+  }
+},
+
+{
+  "model": "havochome.developer",
+  "pk": 3,
+  "fields": {
+    "Name": "Rizky Benggolo",
+    "Role": "Maintainer: X00T",
+    "Desc": "",
+    "Imlink": "https://avatars1.githubusercontent.com/u/22468700?v=4",
+    "Xdalink": "",
+    "Gitlink": "https://github.com/travarilo",
+    "Paylink": "",
+    "Tellink": "https://t.me/travarilo"
+  }
+},
+
+{
+  "model": "havochome.developer",
+  "pk": 4,
+  "fields": {
+    "Name": "Raileanu Cosmin",
+    "Role": "Maintainer: I01WD & I001D",
+    "Desc": "I'm an indie developer form Romania",
+    "Imlink": "https://avatars0.githubusercontent.com/u/17796390?v=4",
+    "Xdalink": "",
+    "Gitlink": "https://github.com/ComicoTeam",
+    "Paylink": "",
+    "Tellink": "https://t.me/ComicoX"
+  }
+},
+
+{
+  "model": "havochome.developer",
+  "pk": 5,
+  "fields": {
+    "Name": "Sonal Singh",
+    "Role": "Maintainer: X01BD",
+    "Desc": "Tech Enthusiast and Learner",
+    "Imlink": "https://avatars1.githubusercontent.com/u/40058171?v=4",
+    "Xdalink": "",
+    "Gitlink": "https://github.com/SonalSingh18",
+    "Paylink": "",
+    "Tellink": "https://t.me/SonalSingh18"
+  }
+},
+
+{
+  "model": "havochome.developer",
+  "pk": 6,
+  "fields": {
+    "Name": "Abhijit Tudu",
+    "Role": "Maintainer: potter",
+    "Desc": "Just a student. And interested in Android Developing.",
+    "Imlink": "https://avatars3.githubusercontent.com/u/20534022?v=4",
+    "Xdalink": "",
+    "Gitlink": "https://github.com/abhijit1998",
+    "Paylink": "",
+    "Tellink": "https://t.me/abhijit1998"
+  }
+},
+
 
 {
   "model": "havochome.device",
@@ -456,6 +532,114 @@
     "Sflink":"https://sourceforge.net/projects/havoc-os/files/potter/",
     "Xdalink":"https://forum.xda-developers.com/moto-g5-plus",
     "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/potter.json"
+  }  
+},
+
+{
+  "model": "havochome.device",
+  "pk":"38",
+  "fields": {
+    "Codename":"oneplus2",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/oneplus2/",
+    "Xdalink":"https://forum.xda-developers.com/oneplus-2",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/oneplus2.json"
+  }  
+},
+
+{
+  "model": "havochome.device",
+  "pk":"39",
+  "fields": {
+    "Codename":"ysl",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/ysl/",
+    "Xdalink":"https://forum.xda-developers.com/redmi-s2",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/ysl.json"
+  }  
+},
+
+{
+  "model": "havochome.device",
+  "pk":"40",
+  "fields": {
+    "Codename":"sanders",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/sanders/",
+    "Xdalink":"https://forum.xda-developers.com/moto-g5s-plus",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/sanders.json"
+  }  
+},
+
+{
+  "model": "havochome.device",
+  "pk":"41",
+  "fields": {
+    "Codename":"RMX1921",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/RMX1921/",
+    "Xdalink":"https://forum.xda-developers.com/realme-xt",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/RMX1921.json"
+  }  
+},
+
+{
+  "model": "havochome.device",
+  "pk":"42",
+  "fields": {
+    "Codename":"land",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/land/",
+    "Xdalink":"https://forum.xda-developers.com/redmi-3s",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/land.json"
+  }
+},
+
+{
+    "model": "havochome.device",
+    "pk":"43",
+    "fields": {
+      "Codename":"markw",
+      "Maintainer":"1",
+      "Sflink":"https://sourceforge.net/projects/havoc-os/files/markw/",
+      "Xdalink":"https://forum.xda-developers.com/redmi-4-prime",
+      "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/markw.json"
+    }  
+},
+
+{
+  "model": "havochome.device",
+  "pk":"44",
+  "fields": {
+    "Codename":"onclite",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/onclite/",
+    "Xdalink":"https://forum.xda-developers.com/redmi-7",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/onclite.json"
+  }  
+},
+
+{
+  "model": "havochome.device",
+  "pk":"45",
+  "fields": {
+    "Codename":"sakura",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/sakura/",
+    "Xdalink":"https://forum.xda-developers.com/redmi-6-pro",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/sakura.json"
+  }  
+},
+
+{
+  "model": "havochome.device",
+  "pk":"46",
+  "fields": {
+    "Codename":"tulip",
+    "Maintainer":"1",
+    "Sflink":"https://sourceforge.net/projects/havoc-os/files/tulip/",
+    "Xdalink":"https://forum.xda-developers.com/redmi-note-6-pro",
+    "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/tulip.json"
   }  
 }
 
