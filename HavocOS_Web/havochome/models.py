@@ -5,7 +5,7 @@ class Developer(models.Model):
     Name = models.CharField(max_length=100)
     Role = models.CharField(max_length=100,null=True)
     Desc = models.TextField()
-    Imlink = models.CharField(max_length=500,default="{{ static 'havochome/assets/profile.jpeg' }}")
+    Imlink = models.CharField(max_length=500,default='/static/havochome/assets/profile.jpeg')
     Xdalink = models.CharField(max_length=500,blank=True)
     Gitlink = models.CharField(max_length=500, blank=True)
     Paylink = models.CharField(max_length=500, blank=True)

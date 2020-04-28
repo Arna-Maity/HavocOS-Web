@@ -30,3 +30,37 @@ def downloads(request):
 
     context = { 'devices': l}
     return render(request, 'havochome/downloads.html',context)
+
+
+def device(request,vendor):
+    l = []
+    for i in range(len(Device.objects.all())): 
+        tmp = {}
+        dev = json.loads(requests.get(Device.objects.get(id=(i+1)).link).content,encoding='utf-8-sig')
+        if dev['vendor_short'] == vendor:
+            tmp['vendor'] = dev['vendor']
+            tmp['name'] = dev['name']
+            tmp['img'] = dev['image']
+            tmp['links'] = Device.objects.get(id=(i+1))
+            l.append(tmp)  
+
+    context = { 'devices': l}
+    return render(request, 'havochome/downloads.html',context)
+
+
+def downloads_ver(request,a_ver):
+    l = []
+    for i in range(len(Device.objects.all())): 
+        tmp = {}
+        dev = json.loads(requests.get(Device.objects.get(id=(i+1)).link).content,encoding='utf-8-sig')
+        print(a_ver," ",dev['versions'])
+        if a_ver in dev['versions']:
+            tmp['vendor'] = dev['vendor']
+            tmp['name'] = dev['name']
+            tmp['img'] = dev['image']
+            tmp['links'] = Device.objects.get(id=(i+1))
+            l.append(tmp)  
+
+    context = { 'devices': l}
+    page = 'havochome/downloads_' + 'a' + str(a_ver) + '.html'
+    return render(request,page,context)
