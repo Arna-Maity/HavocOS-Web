@@ -1,4 +1,7 @@
-# HavocOS-Web #
+# HavocOS-Web # 
+![](https://api.travis-ci.org/Arna-Maity/HavocOS-Web.svg?branch=master)
+
+
 The Havoc OS Website.
 
 ## Dependencies (optional): ##
