@@ -4,7 +4,7 @@
   "pk": 1,
   "fields": {
     "Name": "Anushek",
-    "Role": "Founder & Lead Developer @Havoc-OS",
+    "Role": "Founder & Lead Developer @Havoc-OS | Maintainer: oneplus3",
     "Desc": "",
     "Imlink": "https://avatars0.githubusercontent.com/u/20775406?v=4",
     "Xdalink": "",
@@ -19,7 +19,7 @@
   "pk": 2,
   "fields": {
     "Name": "Viktor Hermann",
-    "Role": "Founder & Lead Developer @Havoc-OS",
+    "Role": "Founder & Lead Developer @Havoc-OS | Maintainer: dipper",
     "Desc": "",
     "Imlink": "https://avatars1.githubusercontent.com/u/6627163?v=4",
     "Xdalink": "",
@@ -63,6 +63,51 @@
   "model": "havochome.developer",
   "pk": 5,
   "fields": {
+    "Name": "Andrew Hexen",
+    "Role": "Maintainer: payton & river",
+    "Desc": "",
+    "Imlink": "https://avatars0.githubusercontent.com/u/16867588?v=4",
+    "Xdalink": "",
+    "Gitlink": "https://github.com/SyberHexen",
+    "Paylink": "",
+    "Tellink": "https://t.me/SyberHexen"
+  }
+},
+
+{
+  "model": "havochome.developer",
+  "pk": 6,
+  "fields": {
+    "Name": "Joshua Primero",
+    "Role": "Maintainer: hlte",
+    "Desc": "Im good.. At trolling.",
+    "Imlink": "https://avatars1.githubusercontent.com/u/17698387?v=4",
+    "Xdalink": "",
+    "Gitlink": "https://github.com/Jprimero15",
+    "Paylink": "",
+    "Tellink": "https://t.me/Jprimero15"
+  }
+},
+
+{
+  "model": "havochome.developer",
+  "pk": 7,
+  "fields": {
+    "Name": "Alex Tro",
+    "Role": "Maintainer: raphael",
+    "Desc": "",
+    "Imlink": "https://avatars3.githubusercontent.com/u/26342303?v=4",
+    "Xdalink": "",
+    "Gitlink": "https://github.com/nuub1k",
+    "Paylink": "",
+    "Tellink": "https://t.me/nuub1k"
+  }
+},
+
+{
+  "model": "havochome.developer",
+  "pk": 8,
+  "fields": {
     "Name": "Sonal Singh",
     "Role": "Maintainer: X01BD",
     "Desc": "Tech Enthusiast and Learner",
@@ -76,7 +121,113 @@
 
 {
   "model": "havochome.developer",
-  "pk": 6,
+  "pk": 9,
+  "fields": {
+    "Name": "Abhijit Tudu",
+    "Role": "Maintainer: potter",
+    "Desc": "Just a student. And interested in Android Developing.",
+    "Imlink": "https://avatars3.githubusercontent.com/u/20534022?v=4",
+    "Xdalink": "",
+    "Gitlink": "https://github.com/abhijit1998",
+    "Paylink": "",
+    "Tellink": "https://t.me/abhijit1998"
+  }
+},
+
+{
+  "model": "havochome.developer",
+  "pk": 10,
+  "fields": {
+    "Name": "Abubakar Yagoub",
+    "Role": "Maintainer: phoenix",
+    "Desc": "Linux and android enthusiast, Recognized XDA Developer,\r\n  \r\n\r\n\"Do Few Things And Do Them Well\"",
+    "Imlink": "https://avatars0.githubusercontent.com/u/10248473?v=4",
+    "Xdalink": "",
+    "Gitlink": "https://github.com/Blacksuan19",
+    "Paylink": "",
+    "Tellink": "https://t.me/blacksuan19"
+  }
+},
+
+{
+  "model": "havochome.developer",
+  "pk": 11,
+  "fields": {
+    "Name": "Siddharth Bharadwaj",
+    "Role": "Maintainer: jasmine-sprout",
+    "Desc": "Just Trying To Be A Mad Computer Expert",
+    "Imlink": "https://avatars1.githubusercontent.com/u/45765901?v=4",
+    "Xdalink": "",
+    "Gitlink": "https://github.com/SiddharthBharadwaj",
+    "Paylink": "",
+    "Tellink": "https://t.me/SiddharthBharadwaj"
+  }
+},
+
+{
+  "model": "havochome.developer",
+  "pk": 12,
+  "fields": {
+    "Name": "Abubakar Yagoub",
+    "Role": "Maintainer: phoenix",
+    "Desc": "Linux and android enthusiast, Recognized XDA Developer,\r\n  \r\n\r\n\"Do Few Things And Do Them Well\"",
+    "Imlink": "https://avatars0.githubusercontent.com/u/10248473?v=4",
+    "Xdalink": "",
+    "Gitlink": "https://github.com/Blacksuan19",
+    "Paylink": "",
+    "Tellink": "https://t.me/blacksuan19"
+  }
+},
+
+{
+  "model": "havochome.developer",
+  "pk": 13,
+  "fields": {
+    "Name": "Abubakar Yagoub",
+    "Role": "Maintainer: phoenix",
+    "Desc": "Linux and android enthusiast, Recognized XDA Developer,\r\n  \r\n\r\n\"Do Few Things And Do Them Well\"",
+    "Imlink": "https://avatars0.githubusercontent.com/u/10248473?v=4",
+    "Xdalink": "",
+    "Gitlink": "https://github.com/Blacksuan19",
+    "Paylink": "",
+    "Tellink": "https://t.me/blacksuan19"
+  }
+},
+
+
+{
+  "model": "havochome.developer",
+  "pk": 14,
+  "fields": {
+    "Name": "Abhijit Tudu",
+    "Role": "Maintainer: potter",
+    "Desc": "Just a student. And interested in Android Developing.",
+    "Imlink": "https://avatars3.githubusercontent.com/u/20534022?v=4",
+    "Xdalink": "",
+    "Gitlink": "https://github.com/abhijit1998",
+    "Paylink": "",
+    "Tellink": "https://t.me/abhijit1998"
+  }
+},
+
+{
+  "model": "havochome.developer",
+  "pk": 15,
+  "fields": {
+    "Name": "Abhijit Tudu",
+    "Role": "Maintainer: potter",
+    "Desc": "Just a student. And interested in Android Developing.",
+    "Imlink": "https://avatars3.githubusercontent.com/u/20534022?v=4",
+    "Xdalink": "",
+    "Gitlink": "https://github.com/abhijit1998",
+    "Paylink": "",
+    "Tellink": "https://t.me/abhijit1998"
+  }
+},
+
+{
+  "model": "havochome.developer",
+  "pk": 16,
   "fields": {
     "Name": "Abhijit Tudu",
     "Role": "Maintainer: potter",
@@ -107,7 +258,7 @@
   "pk":"2",
   "fields": {
     "Codename":"I01WD",
-    "Maintainer":"1",
+    "Maintainer":"4",
     "Sflink":"https://sourceforge.net/projects/havoc-os/files/I01WD/",
     "Xdalink":"https://forum.xda-developers.com/zenfone-6-2019",
     "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/I01WD.json"
@@ -119,7 +270,7 @@
   "pk":"3",
   "fields": {
     "Codename":"X00T",
-    "Maintainer":"1",
+    "Maintainer":"3",
     "Sflink":"https://sourceforge.net/projects/havoc-os/files/X00T/",
     "Xdalink":"https://forum.xda-developers.com/asus-zenfone-max-pro-m1",
     "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/X00T.json"
@@ -131,7 +282,7 @@
   "pk":"4",
   "fields": {
     "Codename":"X01BD",
-    "Maintainer":"1",
+    "Maintainer":"8",
     "Sflink":"https://sourceforge.net/projects/havoc-os/files/X01BD/",
     "Xdalink":"https://forum.xda-developers.com/max-pro-m2",
     "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/X01BD.json"
@@ -227,7 +378,7 @@
   "pk":"12",
   "fields": {
     "Codename":"dipper",
-    "Maintainer":"1",
+    "Maintainer":"2",
     "Sflink":"https://sourceforge.net/projects/havoc-os/files/dipper/",
     "Xdalink":"https://forum.xda-developers.com/mi-8",
     "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/dipper.json"
@@ -372,7 +523,7 @@
   "pk":"24",
   "fields": {
     "Codename":"payton",
-    "Maintainer":"1",
+    "Maintainer":"5",
     "Sflink":"https://sourceforge.net/projects/havoc-os/files/payton/",
     "Xdalink":"https://forum.xda-developers.com/moto-x4",
     "link":"https://raw.githubusercontent.com/Arna-Maity/havoc-supported-devices/master/info/payton.json"
