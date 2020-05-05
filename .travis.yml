@@ -17,6 +17,8 @@ script:
 
 after_success:
   before_install:
-    - docker build ./ -t arnamaity/havocos-web
+    - cd HavocOS_Web 
   install:
-  - bash docker_push.sh
+    - docker build ./ -t arnamaity/havocos-web
+  after_install:
+    - bash docker_push.sh
