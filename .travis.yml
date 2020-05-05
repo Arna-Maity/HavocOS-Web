@@ -17,6 +17,7 @@ script:
   - pwd
 
 deploy:
+  skip_cleanup: true
   provider: script
   script: bash docker_push.sh
   on:
