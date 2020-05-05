@@ -14,11 +14,10 @@ before_install:
 # command to run tests
 script:
   - python manage.py test
+  - pwd
 
-after_success:
-  before_install:
-    - cd HavocOS_Web 
-  install:
-    - docker build ./ -t arnamaity/havocos-web
-  after_install:
-    - bash docker_push.sh
+deploy:
+  provider: script
+  script: bash docker_push.sh
+  on:
+    branch: master
