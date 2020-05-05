@@ -2,12 +2,14 @@ language: python
 python:
   - "3.6"      # current default Python on Travis CI
 
+services:
+  - docker
+
 # command to install dependencies
 install:
   - pip install -r ../requirements.txt
 
 before_install: 
   - cd HavocOS_Web 
-# command to run tests
-script:
   - python manage.py test
+# command to run tests
