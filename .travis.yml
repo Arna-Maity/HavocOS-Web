@@ -16,4 +16,7 @@ script:
   - python manage.py test
 
 after_success:
+  before_install:
+    - docker build ./ -t arnamaity/havocos-web
+  install:
   - bash docker_push.sh
