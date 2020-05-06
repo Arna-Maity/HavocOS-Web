@@ -8,9 +8,6 @@ services:
 install:
   - pip install -r ../requirements.txt
 
-before_install: 
-  - cd HavocOS_Web 
-
 # command to run tests
 script:
   - cd HavocOS_Web/ && python manage.py test && cd ..
