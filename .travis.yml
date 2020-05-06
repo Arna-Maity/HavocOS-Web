@@ -13,11 +13,10 @@ before_install:
 
 # command to run tests
 script:
-  - python manage.py test
-  - pwd
+  - cd HavocOS_Web/ && python manage.py test && cd ..
 
 deploy:
-  skip_cleanup: true
+  cleanup: false
   provider: script
   script: bash docker_push.sh
   on:
