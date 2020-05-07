@@ -6,6 +6,9 @@ services:
 install:
 - pip install -r requirements.txt
 script:
+- cd HavocOS_Web/ && python manage.py makemigrations && cd ..
+- cd HavocOS_Web/ && python manage.py migrate && cd ..
+- cd HavocOS_Web/ && python manage.py loaddata device_maintainer.json && cd ..
 - cd HavocOS_Web/ && python manage.py test && cd ..
 deploy:
   cleanup: false
