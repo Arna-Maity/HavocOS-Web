@@ -7,4 +7,3 @@ HavocOS_Web/havochome/templates/havochome/about.html
 HavocOS_Web/havochome/templates/havochome/downloads.html
 *.bak
 HavocOS_Web/HavocOS_Web/testjson.py
-HavocOS_Web/havochome/migrations/
