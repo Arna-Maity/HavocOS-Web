@@ -1,0 +1,15 @@
+language: python
+python:
+- '3.6'
+services:
+- docker
+install:
+- pip install -r requirements.txt
+script:
+- cd HavocOS_Web/ && python manage.py test && cd ..
+deploy:
+  cleanup: false
+  provider: script
+  script: bash docker_push.sh
+  'on':
+    branch: master
