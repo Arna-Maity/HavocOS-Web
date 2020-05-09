@@ -11,7 +11,7 @@ script:
 - cd HavocOS_Web/ && python manage.py migrate && cd ..
 - cd HavocOS_Web/ && python manage.py loaddata device_maintainer.json && cd ..
 deploy:
-  cleanup: false
+  skip_cleanup: true
   provider: script
   script: bash docker_push.sh
   'on':
